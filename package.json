@@ -1,0 +1,19 @@
+{
+  "name": "pc-part-info",
+  "version": "1.0.0",
+  "description": "Display basic information about your PC's hardware.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "Travis Horn <travis@travishorn.com> (https://travishorn.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "human-readable": "^0.2.1",
+    "ora": "^5.4.0",
+    "systeminformation": "^5.7.2"
+  },
+  "type": "module"
+}
